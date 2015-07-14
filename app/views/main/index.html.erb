@@ -1,3 +1,19 @@
+<head>
+  <script type="text/javascript">
+  window.onload = function()
+    {
+      var myCanvas = .getElementById('myCanvas');
+      var ctx = myCanvas.getContext("2d")
+
+      ctx.beginpath();
+      ctx.arc(400, 200, 50, 0, Math.PIE*2, true)
+      ctx.closePath();
+      ctx.fill();
+    }
+  </script>
+</head>
+
+
 <nav>
     <div class="nav-wrapper">
     <a href="#" class="brand-logo"><img class="moneylogo" src="/images/moneylogo.gif"></a>
@@ -14,13 +30,13 @@
     <img class="mainmoney" src="/images/money.gif">
   </div>
 
-  <div class="card-content">
+  
   <div class="canvasdiv" class="center-align">
-  <canvas id="myCanvas" class="center-align" width="400px" height="400px"></canvas>
+  <canvas id="myCanvas" class="center-align" width="800px" height="400px"></canvas>
   </div>
-  </div>
+ 
 
-
+<!-- 
 <div class="container">
 <div class="row" class="center-align">
         <div class="col s12 m7">
@@ -39,7 +55,7 @@
           </div>
         </div>
       </div>
-      </div>
+      </div> -->
 
 
 

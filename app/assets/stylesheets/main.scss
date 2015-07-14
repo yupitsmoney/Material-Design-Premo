@@ -52,3 +52,9 @@ img.cardimage {
 	border: 2px;
 	border-style: double;
 }
+
+
+*, *:before, *:after {
+  text-align: center;
+  box-sizing: inherit;
+}
