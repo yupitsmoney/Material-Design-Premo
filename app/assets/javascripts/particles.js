@@ -1,15 +1,4 @@
-
-<!-- particles.js container -->
-<div id="particles-js"></div>
-
-<!-- stats - count particles -->
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>
-
-<script type="text/javascript">
-	
-	/* ---- particles.js config ---- */
+/* ---- particles.js config ---- */
 
 particlesJS("particles-js", {
   "particles": {
@@ -142,4 +131,3 @@ update = function() {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
-</script>
