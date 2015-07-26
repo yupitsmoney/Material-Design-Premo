@@ -7,16 +7,28 @@ color: #1b1a1a;
 font-family: Roboto;
 font-size: 202px;
 font-weight: 100;
+margin: auto;
 }
 
 
 /* Text style for "I am a creativ" */
 .line_two {
 width: 580px;
-height: 66px;
+height: 80px;
 color: #1b1a1a;
 font-family: Roboto;
 font-size: 67px;
 font-weight: 400;
-text-align: center;
+
+}
+
+
+/* Text style for "who likes to s" */
+.line_three{
+width: 609px;
+height: 73px;
+color: #1b1a1a;
+font-family: Aileron;
+font-size: 76px;
+font-style: italic;
 }
