@@ -25,6 +25,8 @@ img.moneylogo {
 img.mainmoney {
 	max-height: 650px;
 	min-height: 650px;
+  min-width: 100%;
+  z-index: -1;
 }
 
 footer.page_footer {
